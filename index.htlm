@@ -14,39 +14,55 @@
 
     <main class="gallery-container">
         <div class="gallery-item photo">
-            <img src="images/photo1.jpg" alt="Description de la photo 1">
+            <a href="images/photo1.jpg" download="photo1.jpg">
+                <img src="images/photo1.jpg" alt="Description de la photo 1">
+            </a>
         </div>
 
         <div class="gallery-item video">
-            <video controls>
-                <source src="videos/video1.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise vidéo.
-            </video>
+            <a href="videos/video1.mp4" download="video1.mp4">
+                <video controls>
+                    <source src="videos/video1.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la balise vidéo.
+                </video>
+            </a>
         </div>
 
         <div class="gallery-item photo">
-            <img src="images/photo2.jpg" alt="Description de la photo 2">
+            <a href="images/photo2.jpg" download="photo2.jpg">
+                <img src="images/photo2.jpg" alt="Description de la photo 2">
+            </a>
         </div>
         <div class="gallery-item photo">
-            <img src="images/photo3.jpg" alt="Description de la photo 3">
+            <a href="images/photo3.jpg" download="photo3.jpg">
+                <img src="images/photo3.jpg" alt="Description de la photo 3">
+            </a>
         </div>
         <div class="gallery-item video">
-            <video controls>
-                <source src="videos/video2.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise vidéo.
-            </video>
+            <a href="videos/video2.mp4" download="video2.mp4">
+                <video controls>
+                    <source src="videos/video2.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la balise vidéo.
+                </video>
+            </a>
         </div>
         <div class="gallery-item photo">
-            <img src="images/photo4.jpg" alt="Description de la photo 4">
+            <a href="images/photo4.jpg" download="photo4.jpg">
+                <img src="images/photo4.jpg" alt="Description de la photo 4">
+            </a>
         </div>
         <div class="gallery-item photo">
-            <img src="images/photo5.jpg" alt="Description de la photo 5">
+            <a href="images/photo5.jpg" download="photo5.jpg">
+                <img src="images/photo5.jpg" alt="Description de la photo 5">
+            </a>
         </div>
         <div class="gallery-item video">
-            <video controls>
-                <source src="videos/video3.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise vidéo.
-            </video>
+            <a href="videos/video3.mp4" download="video3.mp4">
+                <video controls>
+                    <source src="videos/video3.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la balise vidéo.
+                </video>
+            </a>
         </div>
         </main>
 
@@ -55,5 +71,7 @@
     </footer>
 
     <script src="script.js"></script>
+</body>
+</html>cript>
 </body>
 </html>
